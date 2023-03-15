@@ -44,15 +44,39 @@ public class App{
 */
  
     public static void main(String [] args) {
-        
+    
+      twisters();
+       
+   }
 
-        /* Write your code here */
+   public static void twisters() {  
+      
+   for(int i= 1; i<= 110; i++) {
+
+
+         if(i%2==0){
+              System.out.print(" Tweetle ");
+            }
+         if(i%4==0){
+               System.out.print(" Beetle ");
+            }
+         if(i%6==0){
+               System.out.print(" Poodle ");
+            }
+       
+         if(i%6!=0& i%2!=0& i%4!=0 ){
+               System.out.print(i);
+            }
+         if(i%11==0){
+              System.out.println();
+            } 
+       }    
      
-       //call method twisters()
+    } 
+     
        //prompt user to enter a string 
        //call method phoneKeypad(string)
 
 
-    }
 
 }
